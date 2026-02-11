@@ -30,7 +30,6 @@ import { cn } from "@/lib/utils"
 import { GlobeToMapTransform } from "@/components/explorer/globe-to-map-transform"
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"
-]
 
 export default function MapPage() {
   const [projects, setProjects] = useState<ProjectMapItem[]>([])
