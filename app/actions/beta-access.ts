@@ -21,7 +21,7 @@ export async function validateBetaAccess(key: string): Promise<{ success: boolea
   cookieStore.set(COOKIE_NAME, COOKIE_VALUE, {
     httpOnly: true,
     secure: true,
-    sameSite: "lax",
+    sameSite: "none",
     path: "/",
     maxAge: 60 * 60 * 24 * 30, // 30 days
   })
