@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "name": "Earthship Biotecture",
+    "location": "New Mexico, USA",
+    "coordinates": [
+      -106,
+      36
+    ],
+    "type": "Passive House",
+    "zoom": 1,
+    "image": "/earthship-sustainable-building-desert.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bullitt Center",
+    "location": "Seattle, USA",
+    "coordinates": [
+      -122.32,
+      47.61
+    ],
+    "type": "Living Building",
+    "zoom": 1,
+    "image": "/bullitt-center-green-building-seattle.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Phipps Center",
+    "location": "Pittsburgh, USA",
+    "coordinates": [
+      -79.95,
+      40.44
+    ],
+    "type": "Net Zero",
+    "zoom": 1,
+    "image": "/phipps-conservatory-sustainable-building.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Manitoba Hydro",
+    "location": "Winnipeg, CA",
+    "coordinates": [
+      -97.14,
+      49.89
+    ],
+    "type": "LEED Platinum",
+    "zoom": 1,
+    "image": "/manitoba-hydro-tower-green-building.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Vancouver Convention",
+    "location": "Vancouver, CA",
+    "coordinates": [
+      -123.12,
+      49.28
+    ],
+    "type": "LEED Platinum",
+    "zoom": 1,
+    "image": "/vancouver-convention-center-green-roof.jpg"
+  },
+  {
+    "id": 6,
+    "name": "San Francisco Living",
+    "location": "San Francisco, USA",
+    "coordinates": [
+      -122.42,
+      37.77
+    ],
+    "type": "Net Zero",
+    "zoom": 2,
+    "image": "/net-zero-modern-architecture-san-francisco.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Portland Eco Tower",
+    "location": "Portland, USA",
+    "coordinates": [
+      -122.68,
+      45.52
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/green-building-vertical-garden-portland.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Denver Solar Hub",
+    "location": "Denver, USA",
+    "coordinates": [
+      -104.99,
+      39.74
+    ],
+    "type": "Solar",
+    "zoom": 2,
+    "image": "/solar-panels-modern-building-denver.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Austin Green District",
+    "location": "Austin, USA",
+    "coordinates": [
+      -97.74,
+      30.27
+    ],
+    "type": "Smart City",
+    "zoom": 2,
+    "image": "/smart-city-modern-urban-austin.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Chicago Retrofit",
+    "location": "Chicago, USA",
+    "coordinates": [
+      -87.63,
+      41.88
+    ],
+    "type": "Retrofit",
+    "zoom": 2,
+    "image": "/modern-building-retrofit-architecture-chicago.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Boston Passive",
+    "location": "Boston, USA",
+    "coordinates": [
+      -71.06,
+      42.36
+    ],
+    "type": "Passive House",
+    "zoom": 2,
+    "image": "/passive-house-modern-brick-boston.jpg"
+  },
+  {
+    "id": 12,
+    "name": "New York Green",
+    "location": "New York, USA",
+    "coordinates": [
+      -74.01,
+      40.71
+    ],
+    "type": "LEED Platinum",
+    "zoom": 2,
+    "image": "/leed-platinum-skyscraper-new-york.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Miami Solar",
+    "location": "Miami, USA",
+    "coordinates": [
+      -80.19,
+      25.76
+    ],
+    "type": "Solar",
+    "zoom": 2,
+    "image": "/solar-energy-modern-glass-building-miami.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Toronto Eco",
+    "location": "Toronto, CA",
+    "coordinates": [
+      -79.38,
+      43.65
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/green-building-toronto-skyline.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Montreal Passive",
+    "location": "Montreal, CA",
+    "coordinates": [
+      -73.57,
+      45.5
+    ],
+    "type": "Passive House",
+    "zoom": 2,
+    "image": "/passive-house-winter-montreal-modern.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Los Angeles Net Zero",
+    "location": "Los Angeles, USA",
+    "coordinates": [
+      -118.24,
+      34.05
+    ],
+    "type": "Net Zero",
+    "zoom": 3,
+    "image": "/net-zero-modern-home-los-angeles.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Phoenix Solar",
+    "location": "Phoenix, USA",
+    "coordinates": [
+      -112.07,
+      33.45
+    ],
+    "type": "Solar",
+    "zoom": 3,
+    "image": "/solar-panels-desert-modern-phoenix.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Dallas Green",
+    "location": "Dallas, USA",
+    "coordinates": [
+      -96.8,
+      32.78
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/green-building-dallas-modern.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Houston Sustainable",
+    "location": "Houston, USA",
+    "coordinates": [
+      -95.37,
+      29.76
+    ],
+    "type": "LEED Platinum",
+    "zoom": 3,
+    "image": "/leed-platinum-building-houston.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Philadelphia Eco",
+    "location": "Philadelphia, USA",
+    "coordinates": [
+      -75.16,
+      39.95
+    ],
+    "type": "Retrofit",
+    "zoom": 3,
+    "image": "/historic-building-retrofit-philadelphia.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Atlanta Green Tower",
+    "location": "Atlanta, USA",
+    "coordinates": [
+      -84.39,
+      33.75
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 22,
+    "name": "Minneapolis Passive",
+    "location": "Minneapolis, USA",
+    "coordinates": [
+      -93.27,
+      44.98
+    ],
+    "type": "Passive House",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 23,
+    "name": "Calgary Solar",
+    "location": "Calgary, CA",
+    "coordinates": [
+      -114.07,
+      51.05
+    ],
+    "type": "Solar",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 24,
+    "name": "Mexico City Green",
+    "location": "Mexico City, MX",
+    "coordinates": [
+      -99.13,
+      19.43
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 25,
+    "name": "Guadalajara Eco",
+    "location": "Guadalajara, MX",
+    "coordinates": [
+      -103.35,
+      20.67
+    ],
+    "type": "LEED Platinum",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 26,
+    "name": "São Paulo Green",
+    "location": "São Paulo, BR",
+    "coordinates": [
+      -46.63,
+      -23.55
+    ],
+    "type": "Green Building",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 27,
+    "name": "Rio Sustainable",
+    "location": "Rio de Janeiro, BR",
+    "coordinates": [
+      -43.17,
+      -22.91
+    ],
+    "type": "LEED Platinum",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 28,
+    "name": "Buenos Aires Eco",
+    "location": "Buenos Aires, AR",
+    "coordinates": [
+      -58.38,
+      -34.6
+    ],
+    "type": "Retrofit",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 29,
+    "name": "Santiago Solar",
+    "location": "Santiago, CL",
+    "coordinates": [
+      -70.65,
+      -33.45
+    ],
+    "type": "Solar",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 30,
+    "name": "Lima Green Tower",
+    "location": "Lima, PE",
+    "coordinates": [
+      -77.04,
+      -12.05
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 31,
+    "name": "Bogotá Passive",
+    "location": "Bogotá, CO",
+    "coordinates": [
+      -74.08,
+      4.71
+    ],
+    "type": "Passive House",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 32,
+    "name": "Quito Eco",
+    "location": "Quito, EC",
+    "coordinates": [
+      -78.47,
+      -0.18
+    ],
+    "type": "LEED Platinum",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 33,
+    "name": "Caracas Green",
+    "location": "Caracas, VE",
+    "coordinates": [
+      -66.9,
+      10.49
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 34,
+    "name": "Montevideo Solar",
+    "location": "Montevideo, UY",
+    "coordinates": [
+      -56.16,
+      -34.9
+    ],
+    "type": "Solar",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 35,
+    "name": "Brasília Sustainable",
+    "location": "Brasília, BR",
+    "coordinates": [
+      -47.88,
+      -15.79
+    ],
+    "type": "Smart City",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 36,
+    "name": "Medellín Green",
+    "location": "Medellín, CO",
+    "coordinates": [
+      -75.56,
+      6.25
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 37,
+    "name": "Curitiba Eco",
+    "location": "Curitiba, BR",
+    "coordinates": [
+      -49.27,
+      -25.43
+    ],
+    "type": "LEED Platinum",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 38,
+    "name": "Córdoba Solar",
+    "location": "Córdoba, AR",
+    "coordinates": [
+      -64.18,
+      -31.42
+    ],
+    "type": "Solar",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 39,
+    "name": "Valparaíso Green",
+    "location": "Valparaíso, CL",
+    "coordinates": [
+      -71.62,
+      -33.05
+    ],
+    "type": "Retrofit",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 40,
+    "name": "La Paz Passive",
+    "location": "La Paz, BO",
+    "coordinates": [
+      -68.15,
+      -16.5
+    ],
+    "type": "Passive House",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 41,
+    "name": "BedZED",
+    "location": "London, UK",
+    "coordinates": [
+      -0.15,
+      51.4
+    ],
+    "type": "Zero Carbon",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 42,
+    "name": "The Edge",
+    "location": "Amsterdam, NL",
+    "coordinates": [
+      4.95,
+      52.34
+    ],
+    "type": "Net Positive",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 43,
+    "name": "Bosco Verticale",
+    "location": "Milan, IT",
+    "coordinates": [
+      9.19,
+      45.48
+    ],
+    "type": "Green Building",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 44,
+    "name": "Powerhouse Kjørbo",
+    "location": "Oslo, NO",
+    "coordinates": [
+      10.52,
+      59.92
+    ],
+    "type": "Energy Positive",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 45,
+    "name": "Freiburg Solar",
+    "location": "Freiburg, DE",
+    "coordinates": [
+      7.85,
+      47.99
+    ],
+    "type": "Solar District",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 46,
+    "name": "Vauban District",
+    "location": "Freiburg, DE",
+    "coordinates": [
+      7.83,
+      48.01
+    ],
+    "type": "Car-Free",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 47,
+    "name": "Passive House Berlin",
+    "location": "Berlin, DE",
+    "coordinates": [
+      13.4,
+      52.52
+    ],
+    "type": "Passive House",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 48,
+    "name": "Copenhagen Green",
+    "location": "Copenhagen, DK",
+    "coordinates": [
+      12.57,
+      55.68
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 49,
+    "name": "Stockholm Eco",
+    "location": "Stockholm, SE",
+    "coordinates": [
+      18.07,
+      59.33
+    ],
+    "type": "LEED Platinum",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 50,
+    "name": "Helsinki Passive",
+    "location": "Helsinki, FI",
+    "coordinates": [
+      24.94,
+      60.17
+    ],
+    "type": "Passive House",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 51,
+    "name": "Paris Green Tower",
+    "location": "Paris, FR",
+    "coordinates": [
+      2.35,
+      48.86
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 52,
+    "name": "Barcelona Solar",
+    "location": "Barcelona, ES",
+    "coordinates": [
+      2.17,
+      41.39
+    ],
+    "type": "Solar",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 53,
+    "name": "Madrid Eco",
+    "location": "Madrid, ES",
+    "coordinates": [
+      -3.7,
+      40.42
+    ],
+    "type": "LEED Platinum",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 54,
+    "name": "Rome Retrofit",
+    "location": "Rome, IT",
+    "coordinates": [
+      12.5,
+      41.9
+    ],
+    "type": "Retrofit",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 55,
+    "name": "Vienna Passive",
+    "location": "Vienna, AT",
+    "coordinates": [
+      16.37,
+      48.21
+    ],
+    "type": "Passive House",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 56,
+    "name": "Zurich Green",
+    "location": "Zurich, CH",
+    "coordinates": [
+      8.54,
+      47.38
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 57,
+    "name": "Brussels Eco",
+    "location": "Brussels, BE",
+    "coordinates": [
+      4.35,
+      50.85
+    ],
+    "type": "LEED Platinum",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 58,
+    "name": "Dublin Solar",
+    "location": "Dublin, IE",
+    "coordinates": [
+      -6.26,
+      53.35
+    ],
+    "type": "Solar",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 59,
+    "name": "Lisbon Green",
+    "location": "Lisbon, PT",
+    "coordinates": [
+      -9.14,
+      38.72
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 60,
+    "name": "Prague Passive",
+    "location": "Prague, CZ",
+    "coordinates": [
+      14.42,
+      50.08
+    ],
+    "type": "Passive House",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 61,
+    "name": "Warsaw Eco",
+    "location": "Warsaw, PL",
+    "coordinates": [
+      21.01,
+      52.23
+    ],
+    "type": "LEED Platinum",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 62,
+    "name": "Budapest Green",
+    "location": "Budapest, HU",
+    "coordinates": [
+      19.04,
+      47.5
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 63,
+    "name": "Athens Solar",
+    "location": "Athens, GR",
+    "coordinates": [
+      23.73,
+      37.98
+    ],
+    "type": "Solar",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 64,
+    "name": "Munich Passive",
+    "location": "Munich, DE",
+    "coordinates": [
+      11.58,
+      48.14
+    ],
+    "type": "Passive House",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 65,
+    "name": "Hamburg Green",
+    "location": "Hamburg, DE",
+    "coordinates": [
+      10,
+      53.55
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 66,
+    "name": "Cape Town Green",
+    "location": "Cape Town, ZA",
+    "coordinates": [
+      18.42,
+      -33.92
+    ],
+    "type": "Green Building",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 67,
+    "name": "Cairo Solar",
+    "location": "Cairo, EG",
+    "coordinates": [
+      31.24,
+      30.04
+    ],
+    "type": "Solar",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 68,
+    "name": "Nairobi Eco",
+    "location": "Nairobi, KE",
+    "coordinates": [
+      36.82,
+      -1.29
+    ],
+    "type": "LEED Platinum",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 69,
+    "name": "Lagos Green Tower",
+    "location": "Lagos, NG",
+    "coordinates": [
+      3.39,
+      6.52
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 70,
+    "name": "Johannesburg Passive",
+    "location": "Johannesburg, ZA",
+    "coordinates": [
+      28.05,
+      -26.2
+    ],
+    "type": "Passive House",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 71,
+    "name": "Casablanca Solar",
+    "location": "Casablanca, MA",
+    "coordinates": [
+      -7.59,
+      33.57
+    ],
+    "type": "Solar",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 72,
+    "name": "Accra Green",
+    "location": "Accra, GH",
+    "coordinates": [
+      -0.19,
+      5.56
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 73,
+    "name": "Addis Ababa Eco",
+    "location": "Addis Ababa, ET",
+    "coordinates": [
+      38.75,
+      9.03
+    ],
+    "type": "LEED Platinum",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 74,
+    "name": "Dar es Salaam Solar",
+    "location": "Dar es Salaam, TZ",
+    "coordinates": [
+      39.27,
+      -6.79
+    ],
+    "type": "Solar",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 75,
+    "name": "Tunis Green",
+    "location": "Tunis, TN",
+    "coordinates": [
+      10.18,
+      36.81
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 76,
+    "name": "Masdar City",
+    "location": "Abu Dhabi, UAE",
+    "coordinates": [
+      54.6,
+      24.4
+    ],
+    "type": "Smart City",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 77,
+    "name": "Bahrain WTC",
+    "location": "Manama, BH",
+    "coordinates": [
+      50.6,
+      26.2
+    ],
+    "type": "Wind Power",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 78,
+    "name": "Green School Bali",
+    "location": "Bali, ID",
+    "coordinates": [
+      115.26,
+      -8.52
+    ],
+    "type": "Bamboo",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 79,
+    "name": "Taipei 101 Green",
+    "location": "Taipei, TW",
+    "coordinates": [
+      121.56,
+      25.03
+    ],
+    "type": "Retrofit",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 80,
+    "name": "Singapore Green",
+    "location": "Singapore, SG",
+    "coordinates": [
+      103.85,
+      1.29
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 81,
+    "name": "Tokyo Passive",
+    "location": "Tokyo, JP",
+    "coordinates": [
+      139.69,
+      35.69
+    ],
+    "type": "Passive House",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 82,
+    "name": "Seoul Eco Tower",
+    "location": "Seoul, KR",
+    "coordinates": [
+      126.98,
+      37.57
+    ],
+    "type": "LEED Platinum",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 83,
+    "name": "Beijing Solar",
+    "location": "Beijing, CN",
+    "coordinates": [
+      116.41,
+      39.9
+    ],
+    "type": "Solar",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 84,
+    "name": "Shanghai Green",
+    "location": "Shanghai, CN",
+    "coordinates": [
+      121.47,
+      31.23
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 85,
+    "name": "Hong Kong Eco",
+    "location": "Hong Kong, HK",
+    "coordinates": [
+      114.17,
+      22.32
+    ],
+    "type": "LEED Platinum",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 86,
+    "name": "Mumbai Green Tower",
+    "location": "Mumbai, IN",
+    "coordinates": [
+      72.88,
+      19.08
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 87,
+    "name": "Delhi Solar",
+    "location": "Delhi, IN",
+    "coordinates": [
+      77.21,
+      28.61
+    ],
+    "type": "Solar",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 88,
+    "name": "Bangkok Eco",
+    "location": "Bangkok, TH",
+    "coordinates": [
+      100.5,
+      13.75
+    ],
+    "type": "LEED Platinum",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 89,
+    "name": "Kuala Lumpur Green",
+    "location": "Kuala Lumpur, MY",
+    "coordinates": [
+      101.69,
+      3.14
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 90,
+    "name": "Jakarta Passive",
+    "location": "Jakarta, ID",
+    "coordinates": [
+      106.85,
+      -6.21
+    ],
+    "type": "Passive House",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 91,
+    "name": "Manila Solar",
+    "location": "Manila, PH",
+    "coordinates": [
+      120.98,
+      14.6
+    ],
+    "type": "Solar",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 92,
+    "name": "Hanoi Green",
+    "location": "Hanoi, VN",
+    "coordinates": [
+      105.84,
+      21.03
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 93,
+    "name": "Bangalore Eco",
+    "location": "Bangalore, IN",
+    "coordinates": [
+      77.59,
+      12.97
+    ],
+    "type": "LEED Platinum",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 94,
+    "name": "Shenzhen Green",
+    "location": "Shenzhen, CN",
+    "coordinates": [
+      114.06,
+      22.54
+    ],
+    "type": "Green Building",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 95,
+    "name": "Osaka Passive",
+    "location": "Osaka, JP",
+    "coordinates": [
+      135.5,
+      34.69
+    ],
+    "type": "Passive House",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 96,
+    "name": "One Central Park",
+    "location": "Sydney, AU",
+    "coordinates": [
+      151.2,
+      -33.9
+    ],
+    "type": "Vertical Garden",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 97,
+    "name": "Pixel Building",
+    "location": "Melbourne, AU",
+    "coordinates": [
+      144.96,
+      -37.81
+    ],
+    "type": "Carbon Neutral",
+    "zoom": 1,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 98,
+    "name": "Brisbane Green",
+    "location": "Brisbane, AU",
+    "coordinates": [
+      153.03,
+      -27.47
+    ],
+    "type": "Green Building",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 99,
+    "name": "Auckland Eco",
+    "location": "Auckland, NZ",
+    "coordinates": [
+      174.76,
+      -36.85
+    ],
+    "type": "LEED Platinum",
+    "zoom": 2,
+    "image": "/placeholder.svg?height=400&width=600"
+  },
+  {
+    "id": 100,
+    "name": "Perth Solar",
+    "location": "Perth, AU",
+    "coordinates": [
+      115.86,
+      -31.95
+    ],
+    "type": "Solar",
+    "zoom": 3,
+    "image": "/placeholder.svg?height=400&width=600"
+  }
+]

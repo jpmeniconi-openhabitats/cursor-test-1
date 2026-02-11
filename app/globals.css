@@ -1,0 +1,336 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Original existing root values (dark mode by default in existing code) for common variables */
+  --background: oklch(1 0 0); /* From shadcn default light */
+  --foreground: oklch(0.145 0 0); /* From shadcn default light */
+  --card: oklch(1 0 0); /* From shadcn default light */
+  --card-foreground: oklch(0.145 0 0); /* From shadcn default light */
+  --popover: oklch(1 0 0); /* From shadcn default light */
+  --popover-foreground: oklch(0.145 0 0); /* From shadcn default light */
+  --primary: oklch(0.205 0 0); /* From shadcn default light */
+  --primary-foreground: oklch(0.985 0 0); /* From shadcn default light */
+  --secondary: oklch(0.97 0 0); /* From shadcn default light */
+  --secondary-foreground: oklch(0.205 0 0); /* From shadcn default light */
+  --muted: oklch(0.97 0 0); /* From shadcn default light */
+  --muted-foreground: oklch(0.556 0 0); /* From shadcn default light */
+  --accent: oklch(0.97 0 0); /* From shadcn default light */
+  --accent-foreground: oklch(0.205 0 0); /* From shadcn default light */
+  --destructive: oklch(0.577 0.245 27.325); /* From shadcn default light */
+  --destructive-foreground: oklch(0.577 0.245 27.325); /* From shadcn default light */
+  --border: oklch(0.922 0 0); /* From shadcn default light */
+  --input: oklch(0.922 0 0); /* From shadcn default light */
+  --ring: oklch(0.708 0 0); /* From shadcn default light */
+
+  /* New chart and sidebar variables from shadcn default */
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  /* Preserving existing root values for dark mode as per instruction */
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.145 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+
+  /* New chart and sidebar variables from shadcn default dark */
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(0.269 0 0);
+  --sidebar-ring: oklch(0.439 0 0);
+}
+
+@theme inline {
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  --font-serif: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  --font-bricolage: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  --font-sf: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1); /* New from shadcn default */
+  --color-chart-2: var(--chart-2); /* New from shadcn default */
+  --color-chart-3: var(--chart-3); /* New from shadcn default */
+  --color-chart-4: var(--chart-4); /* New from shadcn default */
+  --color-chart-5: var(--chart-5); /* New from shadcn default */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar); /* New from shadcn default */
+  --color-sidebar-foreground: var(--sidebar-foreground); /* New from shadcn default */
+  --color-sidebar-primary: var(--sidebar-primary); /* New from shadcn default */
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground); /* New from shadcn default */
+  --color-sidebar-accent: var(--sidebar-accent); /* New from shadcn default */
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground); /* New from shadcn default */
+  --color-sidebar-border: var(--sidebar-border); /* New from shadcn default */
+  --color-sidebar-ring: var(--sidebar-ring); /* New from shadcn default */
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  /* Glass morphism effect utility */
+  .glass {
+    background: oklch(0.1 0 0 / 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid oklch(0.2 0 0 / 0.3);
+  }
+
+  /* Progress bar grow animation */
+  @keyframes progressGrow {
+    from { width: 0; }
+    to { width: var(--final-width); }
+  }
+
+  /* Modern transparent scrollbar styling */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    transition: background 0.2s ease;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+  }
+}
+
+/* Font Classes - All SF Pro */
+.font-bricolage {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+.font-sf {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+/* Grain Texture Overlay */
+.bg-grain {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Hide Scrollbar */
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Hero Animations */
+@keyframes cinematicEntrance {
+  0% { transform: scale(1.4); filter: blur(20px) grayscale(100%); opacity: 0; }
+  20% { opacity: 1; }
+  100% { transform: scale(1); filter: blur(0px) grayscale(0%); opacity: 1; }
+}
+.animate-cinematic { animation: cinematicEntrance 3.5s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+
+@keyframes slideUpFade {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-slide-up { animation: slideUpFade 1s ease-out forwards; }
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-ticker { animation: ticker 20s linear infinite; }
+
+/* Card Shimmer */
+@keyframes shimmerMove {
+  0% { transform: translateX(-150%) skewX(-20deg); }
+  100% { transform: translateX(200%) skewX(-20deg); }
+}
+.animate-shimmer-effect {
+  animation: shimmerMove 3s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+/* Slide Animations */
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-60px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(60px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.slide-in-left {
+  animation: slideInLeft 1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-fade-in { animation: fadeIn 0.3s ease-out forwards; }
+.animate-fade-out { animation: fadeOut 0.3s ease-out forwards; }
+
+/* Modal center animation */
+@keyframes modalScaleIn {
+  0% { opacity: 0; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.animate-modal-in { animation: modalScaleIn 0.2s ease-out forwards; }
+
+/* Spin Animations */
+@keyframes spinReverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+.animate-spin-slow { animation: spin 10s linear infinite; }
+.animate-spin-slow-reverse { animation: spinReverse 12s linear infinite; }
+
+/* In-view Animation Logic */
+@keyframes animationIn {
+  0% { opacity: 0; transform: translateY(30px); filter: blur(8px); }
+  100% { opacity: 1; transform: translateY(0); filter: blur(0px); }
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  animation: animationIn 1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  animation-play-state: paused;
+}
+
+.animate-on-scroll.animate {
+  animation-play-state: running;
+}
+
+.animate-on-scroll[data-anim="slide-left"].animate {
+  animation: slideInLeft 1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+.animate-on-scroll[data-anim="slide-right"].animate {
+  animation: slideInRight 1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+/* Delay Classes */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* Fan Slide Animation */
+@keyframes fanSlideIn {
+  0% { opacity: 0; transform: translateY(40px) rotate(2deg) scale(0.96); filter: blur(4px); }
+  100% { opacity: 1; transform: translateY(0) rotate(0) scale(1); filter: blur(0); }
+}
+
+/* Bar Equalizer Animation */
+@keyframes barEqualizer {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(0.3); }
+}
+.bar-anim {
+  transform-origin: bottom;
+  animation-name: barEqualizer;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-iteration-count: infinite;
+}
+
+/* 3D Transform Utilities */
+.perspective-none { perspective: none; }
+.perspective-dramatic { perspective: 100px; }
+.perspective-near { perspective: 300px; }
+.perspective-normal { perspective: 500px; }
+.perspective-midrange { perspective: 800px; }
+.perspective-distant { perspective: 1200px; }
+.transform-style-preserve-3d { transform-style: preserve-3d; }
+.transform-style-flat { transform-style: flat; }
